@@ -17,7 +17,7 @@ OWASP Top 10
 
 An AWS Auto Scaling group will help your servers scale due to changes on ingress traffic following in your cloud environment. 
 
-AWS DynamoDB Accelerator (DAX) node cluster and was configured in the backend private subnet of the US-east-1 region to avoid downtime and prevent regional outages. Similar to the US-east-1 region outage on 10/22/2025 
+AWS DynamoDB Accelerator (DAX) node cluster and was configured in the backend private subnet of the US-east-1 region to avoid downtime and prevent regional outages. Similar to the US-east-1 region outage on 10/22/2025 where the DNS regional cache failed and caused a cascade error effecting the backend databases causing downtime. 
 
 
 ![image alt](https://github.com/DMayrant/WAFv2-Logs/blob/main/WAFv2_logs.jpeg?raw=true)
